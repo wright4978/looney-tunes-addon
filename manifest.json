@@ -1,13 +1,14 @@
 {
  "id": "com.mikewright.looneytunes.titlecards",
- "version": "1.0.0",
- "name": "Looney Tunes Title Cards",
- "description": "Looney Tunes and Merrie Melodies shorts with their original title cards.",
+ "version": "1.1.0",
+ "name": "Mike's Animation Catalogs",
+ "description": "Looney Tunes shorts with their original title cards, plus MTV '90s animation rows.",
  "resources": [
   "catalog"
  ],
  "types": [
-  "movie"
+  "movie",
+  "series"
  ],
  "catalogs": [
   {
@@ -79,6 +80,26 @@
    "type": "movie",
    "id": "lt-private-snafu-blooper-reel-1938-1946",
    "name": "Wartime & Government Shorts | 1938–1957"
+  },
+  {
+   "type": "series",
+   "id": "mtv-beavis",
+   "name": "Beavis and Butt-Head"
+  },
+  {
+   "type": "series",
+   "id": "mtv-daria",
+   "name": "Daria"
+  },
+  {
+   "type": "series",
+   "id": "mtv-anthologies",
+   "name": "Anthologies"
+  },
+  {
+   "type": "series",
+   "id": "mtv-standalone",
+   "name": "Standalone Series"
   }
  ],
  "behaviorHints": {
