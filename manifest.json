@@ -1,1 +1,219 @@
-{"id":"com.mikewright.looneytunes.titlecards","version":"1.8.1","name":"Mike's Animation Catalogs","description":"Looney Tunes with original title cards, MTV 90s animation, and Matt Groening shows by season and holiday.","resources":["catalog",{"name":"meta","types":["series"],"idPrefixes":["mg_"]}],"types":["movie","series"],"catalogs":[{"type":"movie","id":"lt-harman-ising-1930-1933","name":"Harman–Ising | 1930–1933","showInHome":false},{"type":"movie","id":"lt-early-schlesinger-1933-1936","name":"Early Schlesinger | 1933–1937","showInHome":false},{"type":"movie","id":"lt-friz-freleng-1933-1965","name":"Friz Freleng | 1933–1965","showInHome":false},{"type":"movie","id":"lt-tex-avery-1935-1941","name":"Tex Avery | 1935–1941","showInHome":false},{"type":"movie","id":"lt-frank-tashlin-1936-1946","name":"Frank Tashlin | 1936–1946","showInHome":false},{"type":"movie","id":"lt-bob-clampett-1937-1947","name":"Bob Clampett | 1937–1947","showInHome":false},{"type":"movie","id":"lt-chuck-jones-1938-1965","name":"Chuck Jones | 1938–1965","showInHome":false},{"type":"movie","id":"lt-hardaway-dalton-1934-1940","name":"Hardaway & Dalton | 1934–1940","showInHome":false},{"type":"movie","id":"lt-norman-mccabe-1941-1943","name":"Norman McCabe | 1941–1943","showInHome":false},{"type":"movie","id":"lt-arthur-davis-1946-1962","name":"Arthur Davis | 1946–1962","showInHome":false},{"type":"movie","id":"lt-robert-mckimson-1945-1969","name":"Robert McKimson | 1945–1969","showInHome":false},{"type":"movie","id":"lt-depatie-freleng-1964-1967","name":"DePatie–Freleng | 1964–1967","showInHome":false},{"type":"movie","id":"lt-seven-arts-1967-1969","name":"Seven Arts | 1967–1969","showInHome":false},{"type":"movie","id":"lt-private-snafu-blooper-reel-1938-1946","name":"Wartime & Government Shorts | 1938–1957","showInHome":false},{"type":"series","id":"mtv-beavis","name":"Beavis and Butt-Head","showInHome":false},{"type":"series","id":"mtv-daria","name":"Daria","showInHome":false},{"type":"series","id":"mtv-anthologies","name":"Anthologies","showInHome":false},{"type":"series","id":"mtv-standalone","name":"Standalone Series","showInHome":false},{"type":"series","id":"mg-simpsons","name":"The Simpsons","showInHome":false},{"type":"series","id":"mg-futurama","name":"Futurama","showInHome":false},{"type":"series","id":"mg-disenchantment","name":"Disenchantment","showInHome":false},{"type":"series","id":"as-animated","name":"Animated","showInHome":false},{"type":"series","id":"as-live-action","name":"Live Action","showInHome":false},{"type":"series","id":"as-tim-eric","name":"Tim & Eric","showInHome":false},{"type":"series","id":"as-action","name":"Action","showInHome":false},{"type":"series","id":"as-syndicated","name":"Syndicated","showInHome":false},{"type":"series","id":"fm-lynch-films","name":"Films","showInHome":false},{"type":"series","id":"fm-lynch-tv","name":"TV","showInHome":false},{"type":"series","id":"fm-lynch-shorts","name":"Shorts","showInHome":false},{"type":"series","id":"fm-lynch-music","name":"Music","showInHome":false},{"type":"series","id":"fm-lynch-docs","name":"Documentaries","showInHome":false}],"behaviorHints":{"configurable":false}}
+{
+  "id": "com.mikewright.looneytunes.titlecards",
+  "version": "1.9.0",
+  "name": "Mike's Animation Catalogs",
+  "description": "Looney Tunes with original title cards, MTV 90s animation, and Matt Groening shows by season and holiday.",
+  "resources": [
+    "catalog",
+    {
+      "name": "meta",
+      "types": [
+        "series"
+      ],
+      "idPrefixes": [
+        "mg_"
+      ]
+    }
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "lt-harman-ising-1930-1933",
+      "name": "Harman–Ising | 1930–1933",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-early-schlesinger-1933-1936",
+      "name": "Early Schlesinger | 1933–1937",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-friz-freleng-1933-1965",
+      "name": "Friz Freleng | 1933–1965",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-tex-avery-1935-1941",
+      "name": "Tex Avery | 1935–1941",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-frank-tashlin-1936-1946",
+      "name": "Frank Tashlin | 1936–1946",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-bob-clampett-1937-1947",
+      "name": "Bob Clampett | 1937–1947",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-chuck-jones-1938-1965",
+      "name": "Chuck Jones | 1938–1965",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-hardaway-dalton-1934-1940",
+      "name": "Hardaway & Dalton | 1934–1940",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-norman-mccabe-1941-1943",
+      "name": "Norman McCabe | 1941–1943",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-arthur-davis-1946-1962",
+      "name": "Arthur Davis | 1946–1962",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-robert-mckimson-1945-1969",
+      "name": "Robert McKimson | 1945–1969",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-depatie-freleng-1964-1967",
+      "name": "DePatie–Freleng | 1964–1967",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-seven-arts-1967-1969",
+      "name": "Seven Arts | 1967–1969",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "lt-private-snafu-blooper-reel-1938-1946",
+      "name": "Wartime & Government Shorts | 1938–1957",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mtv-beavis",
+      "name": "Beavis and Butt-Head",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mtv-daria",
+      "name": "Daria",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mtv-anthologies",
+      "name": "Anthologies",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mtv-standalone",
+      "name": "Standalone Series",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mg-simpsons",
+      "name": "The Simpsons",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mg-futurama",
+      "name": "Futurama",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "mg-disenchantment",
+      "name": "Disenchantment",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "as-animated",
+      "name": "Animated",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "as-live-action",
+      "name": "Live Action",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "as-tim-eric",
+      "name": "Tim & Eric",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "as-action",
+      "name": "Action",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "as-syndicated",
+      "name": "Syndicated",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-lynch-films",
+      "name": "Films",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-lynch-tv",
+      "name": "TV",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-lynch-shorts",
+      "name": "Shorts",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-lynch-music",
+      "name": "Music",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-lynch-docs",
+      "name": "Documentaries",
+      "showInHome": false
+    },
+    {
+      "type": "movie",
+      "id": "crc-collection",
+      "name": "Criterion Collection",
+      "showInHome": false
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false
+  }
+}
