@@ -1,6 +1,6 @@
 {
   "id": "com.mikewright.looneytunes.titlecards",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "Mike's Animation Catalogs",
   "description": "Looney Tunes with original title cards, MTV 90s animation, and Matt Groening shows by season and holiday.",
   "resources": [
@@ -210,6 +210,72 @@
       "type": "movie",
       "id": "crc-collection",
       "name": "Criterion Collection",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-akerman-films",
+      "name": "Films",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-akerman-docs",
+      "name": "Documentaries",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-akerman-shorts",
+      "name": "Shorts",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-wenders-films",
+      "name": "Films",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-wenders-docs",
+      "name": "Documentaries",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-wenders-shorts",
+      "name": "Shorts",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-fellini-films",
+      "name": "Films",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-fellini-other",
+      "name": "Shorts & Documentaries",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-varda-films",
+      "name": "Films",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-varda-docs",
+      "name": "Documentaries",
+      "showInHome": false
+    },
+    {
+      "type": "series",
+      "id": "fm-varda-shorts",
+      "name": "Shorts",
       "showInHome": false
     }
   ],
